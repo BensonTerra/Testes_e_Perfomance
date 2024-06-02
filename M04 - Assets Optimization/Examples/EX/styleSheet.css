@@ -1,0 +1,63 @@
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customNavbar{
+  background-color: aqua;
+  width: 100%;
+  height: 30%;
+  list-style: none;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.btn{
+  width: 20%;
+  border-radius: 15px;
+}
+
+.btnEnd{
+  width: 80%;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.btn1{
+  background-color: brown;
+  color: blanchedalmond;
+}
+
+.btn2{
+  background-color: rgb(194, 0, 68);
+  color: rgb(174, 255, 0);
+}
+
+.btn3{
+  background-color: rgb(89, 64, 64);
+  color: rgb(93, 0, 255);
+}
+
+.Img {
+  background-color: red;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.imgLeft {
+  left: 100%;
+}
+
+.imgScale{
+  scale: 50%;
+}
+
+.imgOut{
+scale: 20%;
+}
+

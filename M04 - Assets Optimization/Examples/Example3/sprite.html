@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Images</title>
+</head>
+
+<style type="text/css">
+	body {
+		display: flex;
+	}
+
+	.sprite {
+		width: 100px;
+		background:  url('SocialNetworksSprites.png');
+		padding: 100px 0px 0px 0px;
+		float: left;
+	}
+
+	.sprite.twitter {
+		background-position: -100px, 0;
+	}
+	.sprite.youtube {
+		background-position: -200px, 0;
+	}
+	.sprite.instagram {
+		background-position: -300px, 0;
+	}
+	.sprite.linkdin {
+		background-position: -400px, 0;
+	}
+</style>
+
+<body>
+	<div class="sprite"></div>
+	<div class="sprite twitter"></div>
+	<div class="sprite youtube"></div>
+	<div class="sprite instagram"></div>
+	<div class="sprite linkdin"></div>
+
+</body>
+</html>
